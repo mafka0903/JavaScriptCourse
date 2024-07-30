@@ -22,9 +22,14 @@ git log
 https://github.com/mafka0903/JavaScriptCourse/commits/main/Lesson1
 
 4. Створити гілку на основі майстер гілки. Внести зміни в нову гілку та завантажити їх у віддалений репозиторій. Злити зміни нової гілки в гілку master.
+   Create
+   git checkout main
+   git pull origin main
+   git checkout -b develop
 
-git checkout main
-git pull origin main
-git checkout -b develop
+Add changes
+git add .
+git commit -m "add to develop branch"
+git push origin develop
 
 5. Спробувати роботу з репозиторієм через VS Code (Команди add, commit, push, pull та роботу з гілками)
